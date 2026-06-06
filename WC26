@@ -138,13 +138,6 @@ http://23.237.104.106:8080/DAZN_4/index.m3u8
 #EXTINF:-1:-1 tvg-id="DAZN5.uk" tvg-name="DAZN 5" tvg-logo="https://i.imgur.com/HD2XaeS.png" group-title="Outside ASEAN", DAZN 5 (Spain)
 http://opplextv.cyou:8080/nasir6160/nasir/233082
 
-#EXTINF:-1 tvg-id="ESPN.co" tvg-name="ESPN.co" tvg-logo="https://i.imgur.com/ogYOr0K.png" group-title="🇨🇴 ClaroTV Sports" group-logo="https://iili.io/3Gvhfpt.png", ESPN ᶜˡ
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4382bcad3d01459c90149699e0b5d94c:f2ea295f6210b86f782f44c5d8dd2660
-https://cors.caliph.my.id/https://nagracovoslive.lcdn.claro.net.co/Content/DASH_DASH_NAGRA/Live/Channel(ESPN_HD)/manifest.mpd
-
 #EXTINF:-1 tvg-id="TSN1.ca" tvg-name="TSN1" tvg-logo="https://i.imgur.com/eRFE0jZ.png" group-title="Outside ASEAN", TSN 1 (Canada)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
