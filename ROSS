@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="http://epg.one/epg.xml.gz"
-#EXTINF:0 group-title="Общие" tvg-id="146" tvg-logo="http://epg.one/img/146.png" tvg-rec="0",TSN 51
+#EXTINF:0 group-title="Общие" tvg-id="146" tvg-logo="http://epg.one/img/146.png" tvg-rec="0",TSN 511
 https://hlsplayers.pages.dev/mpd?url=https://cors.notesnook.com/https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd&key1=14eeabf30c14b7fbf3008c03099ce011&key2=17d2ac8dbc5429bd70af3433aa12158d
 #EXTINF:0 group-title="Общие" tvg-id="146" tvg-logo="http://epg.one/img/146.png" tvg-rec="0",Первый канал UHD
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/GR7E6CW6C7XSQL3R36FTRRWW/19241/index.m3u8
