@@ -1,35 +1,35 @@
-#EXTM3U url-tvg="https://www.open-epg.com/files/canada.xml, http://cdn2.djdoolky76.com/epg.xml" refresh="3600"
+#EXTM3U url-tvg="https://www.open-epg.com/files/canada.xml" refresh="3600"
 
 	
-#EXTINF:-1 tvg-id="wctv1" tvg-name="WCTV CH1" tvg-logo="https://i.imgur.com/yzGXATZ.png" group-title="WC 2006", WCTV CH1
+#EXTINF:-1 tvg-id="wctv1" tvg-name="WCTV CH1" tvg-logo="https://i.imgur.com/yzGXATZ.png" group-title="meki WC 2006", WCTV CH1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2c338a117d434ce4bbe3569231af90f1:a9633d901ee8a3f4f58ac314b5c5f4fb
 4fef00332d7e4fbc8f7005dfbf851a59:a6368c181358f3e527411a6c452c6a1a
 https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd
 
 
-#EXTINF:-1 tvg-id="TSN1HD.ca" tvg-name="TSN 1 HD.ca" tvg-logo="https://i.imgur.com/X1Ux8w0.png" group-title="WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 1 ᴰ⁺
+#EXTINF:-1 tvg-id="TSN1HD.ca" tvg-name="TSN 1 HD.ca" tvg-logo="https://i.imgur.com/X1Ux8w0.png" group-title="meki WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 1 ᴰ⁺
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 
-#EXTINF:-1 tvg-id="TSN2HD.ca" tvg-name="TSN 2 HD.ca" tvg-logo="https://i.imgur.com/CKSwUSG.png" group-title="WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 2 ᴰ⁺
+#EXTINF:-1 tvg-id="TSN2HD.ca" tvg-name="TSN 2 HD.ca" tvg-logo="https://i.imgur.com/CKSwUSG.png" group-title="meki WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 2 ᴰ⁺
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
 
-#EXTINF:-1 tvg-id="TSN3HD.ca" tvg-name="TSN 3 HD.ca" tvg-logo="https://i.imgur.com/UaO6k63.png" group-title="WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 3 ᴰ⁺
+#EXTINF:-1 tvg-id="TSN3HD.ca" tvg-name="TSN 3 HD.ca" tvg-logo="https://i.imgur.com/UaO6k63.png" group-title="meki WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 3 ᴰ⁺
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d
 d9097a1b7d04b7786b29f2b0e155316d:279695ebe0fb1bc5787422b6b59ce8a8
 https://otte.cache.aiv-cdn.net/syd-nitro/live/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd
 
-#EXTINF:-1 tvg-id="TSN4HD.ca" tvg-name="TSN 4 HD.ca" tvg-logo="https://i.imgur.com/SUUko1H.png" group-title="WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 4 ᴰ⁺
+#EXTINF:-1 tvg-id="TSN4HD.ca" tvg-name="TSN 4 HD.ca" tvg-logo="https://i.imgur.com/SUUko1H.png" group-title="meki WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 4 ᴰ⁺
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
 
-#EXTINF:-1 tvg-id="TSN5HD.ca" tvg-name="TSN 5 HD.ca" tvg-logo="https://i.imgur.com/wd58Tmg.png" group-title="WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 5 ᴰ⁺
+#EXTINF:-1 tvg-id="TSN5HD.ca" tvg-name="TSN 5 HD.ca" tvg-logo="https://i.imgur.com/wd58Tmg.png" group-title="meki WC 2006" group-logo="https://iili.io/Cqdl9kB.png", TSN 5 ᴰ⁺
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
