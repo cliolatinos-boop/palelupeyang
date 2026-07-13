@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Prevent iOS bounce scroll */
+    overscroll-behavior: none;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #000;
+    color: #f3f4f6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    /* Safe area for notch / Dynamic Island / gesture bar */
+    padding-top: env(safe-area-inset-top);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    overscroll-behavior: none;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: #111; }
+  ::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: #c8ff00; }
+}
+
+@layer utilities {
+  /* Brand gradient — orange kept for buttons/CTAs for contrast on dark bg */
+  .gradient-brand {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 50%, #dc2626 100%);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #c8ff00, #a3cc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Lime glow for accent elements */
+  .gradient-lime {
+    background: #c8ff00;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-dark {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .live-badge {
+    animation: pulse-live 1.5s ease-in-out infinite;
+  }
+
+  .text-shadow-glow {
+    text-shadow: 0 0 24px rgba(200, 255, 0, 0.5);
+  }
+
+  .card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .card-hover:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(200, 255, 0, 0.15);
+  }
+
+  .no-select {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+
+  /* Safe area padding utilities */
+  .pb-safe {
+    padding-bottom: max(5rem, calc(4rem + env(safe-area-inset-bottom)));
+  }
+  .bottom-safe {
+    bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* ── Video player sliders ── */
+.player-progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #c8ff00;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(200, 255, 0, 0.6);
+}
+.player-progress::-moz-range-thumb {
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #c8ff00;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 8px rgba(200, 255, 0, 0.6);
+}
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+.volume-slider::-moz-range-thumb {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  border: none;
+}
+
+/* ── Card mount animation (CSS only — no framer-motion in tap path) ── */
+@keyframes card-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.card-appear {
+  animation: card-up 0.28s ease-out both;
+}
+
+/* ── Keyframes ── */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes zap-flash {
+  0%   { opacity: 0.35; transform: scale(0.85) rotate(-8deg); }
+  100% { opacity: 1;    transform: scale(1.2)  rotate(8deg);  }
+}
+
+@keyframes runner-stride {
+  0%   { transform: translateX(-6px) scaleX(1); }
+  100% { transform: translateX(6px)  scaleX(1); }
+}
+
+@keyframes progress-pulse {
+  0%   { opacity: 0.7; }
+  100% { opacity: 1; box-shadow: 0 0 12px #c8ff00; }
+}
+
+@keyframes particle-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.3; }
+  50%       { transform: translateY(-30px) rotate(180deg); opacity: 0.7; }
+}
+.particle {
+  animation: particle-float var(--duration, 4s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+video { display: block; }
+
+.channel-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.4) 50%, transparent 100%);
+}
+
+/* Neon lime glow */
+.neon-lime {
+  box-shadow: 0 0 10px rgba(200,255,0,0.5), 0 0 30px rgba(200,255,0,0.3), 0 0 60px rgba(200,255,0,0.1);
+}
+
+.neon-red {
+  box-shadow: 0 0 10px rgba(239,68,68,0.5), 0 0 30px rgba(239,68,68,0.3);
+}
+
+/* Standalone PWA — hide address bar gap */
+@media (display-mode: standalone) {
+  body { padding-top: 0; }
+}
