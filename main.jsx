@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+import 'https://raw.githubusercontent.com/cliolatinos-boop/palelupeyang/refs/heads/main/index.css'
 import App from './App.jsx'
 import { installGuard } from './utils/devtools-guard.js'
 
