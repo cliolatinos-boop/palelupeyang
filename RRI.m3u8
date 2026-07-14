@@ -1,18 +1,4 @@
 >>>>>>>>>>=
-#EXTINF:-1 tvg-logo="" group-logo="https://i.imgur.com/yFSXd5B.png"  group-title="🔊 Radio Republik Indonesia", 
-
-
-#EXTINF:-1 tvg-id="RRI NET" tvg-name"RRI NET" tvg-logo="https://www.rri.co.id/assets/images/rri-net-stream.png" group-logo="https://i.imgur.com/yFSXd5B.png"  group-title="🔊 Radio Republik Indonesia", RRI Net Jakarta
-**https://rrinet.rri.co.id/hls/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.rri.co.id/assets/images/rri-net-stream.png" group-logo="https://i.imgur.com/yFSXd5B.png"  group-title="🔊 Radio Republik Indonesia", RRI Net Bandung (Live On Demand)
-#**https://yt.ariev.workers.dev/ch/UCCNy-ENKsp6L18YXOa-teNg.m3u8
-#EXTINF:-1 tvg-logo="https://www.rri.co.id/assets/images/rri-net-stream.png group-logo="https://i.imgur.com/yFSXd5B.png"  group-title="🔊 Radio Republik Indonesia", RRI Net Jogja (Live On Demand)
-#**https://yt.ariev.workers.dev/ch/UCXnzOqOSDNUfN0F08Mw-Exw.m3u8
-#EXTINF:-1 tvg-logo="https://www.rri.co.id/assets/images/rri-net-stream.png" group-logo="https://i.imgur.com/yFSXd5B.png"  group-title="🔊 Radio Republik Indonesia", RRI Net Madiun (Live On Demand)
-#**https://yt.ariev.workers.dev/ch/UCYLOfl4PnBiM-d4jGKApWlg.m3u8
-#EXTINF:-1 tvg-logo="https://www.rri.co.id/assets/images/rri-net-stream.png" group-logo="https://i.imgur.com/yFSXd5B.png"  group-title="🔊 Radio Republik Indonesia", RRI Net Batam (Live On Demand)
-#**https://yt.ariev.workers.dev/ch/UCo0aJnyVVkOlFXcFApxFeFQ.m3u8.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://thumb2.svara.id/unsafe/640x0/svara-radio-logowide/cfdm98dfyf20008xdm50.p5000x5000.png" group-logo="https://i.imgur.com/yFSXd5B.png"  group-title="🔊 Radio Republik Indonesia", Voice of Indonesia - SW-3325Khz SW-4750Khz 
